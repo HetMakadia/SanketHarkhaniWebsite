@@ -1,6 +1,5 @@
 import "./LandingPage.css"
 import img from "./hero_main.PNG"
-import img2 from "./hero2.PNG"
 import {Link} from "react-scroll";
 
 function LandingPage() {
@@ -8,17 +7,16 @@ function LandingPage() {
         <section id="main" className=" items-center bg-base-100 content-center grid grid-cols-2 select-none">
             <div className="col-span-2 lg:col-span-1 justify-self-center text-info p-14 lg:p-24">
                 <h1 className="main-heading">
-                    Hi 👋, <br/>   I'm <span className="font-bold text-gray-400">Het Makadia</span>, <br/> <span className="font-bold text-gray-600">Software</span> Developer
+                    Bonjour 👋, <br/>   I'm <span className="font-bold text-gray-400">Sanket Harkhani</span>, <br/> <span className="font-bold text-gray-600">Supply Chain</span> Professional
                 </h1>
-                {/*<h1 className="main-heading">*/}
-                {/*    Hi 👋, <br/>   I'm <span className="font-bold text-orange-600">Het Makadia</span>, <br/> <span className="font-bold text-pink-600">Full-Stack</span> Developer*/}
-                {/*</h1>*/}
                 <br/>
                 <p className="main-text">
-                    Combining my passion for frontend development with my knowledge of backend technologies, I'm
-                    constantly pushing the boundaries of web development to create innovative, responsive, and engaging
-                    digital experiences that drive user engagement and business growth. Whether it's a custom website or
-                    a complex web application, I'm always up for a challenge.
+                    Driven by data, structure, and execution within supply chain and operations roles.
+                    Strong hands-on exposure to multiple ERP and WMS systems, using data and reporting to improve inventory accuracy, visibility, and execution.
+                    Focused on strengthening supply chains through structured processes, collaboration, and continuous improvement.
+                    Commitment towards work and strong work ethics are my driving force and contributes significantly towards success of the organization.
+                    Whether it's a simple supply chain problem or a complex set of data, I'm always up for a challenge.
+
                 </p>
                 <br/>
                 <div className="btn p-0">
@@ -33,7 +31,7 @@ function LandingPage() {
             </div>
 
             <div className="col-span-2 lg:col-span-1 justify-self-center">
-                <img src={img2} className="max-w-sm" />
+                <img src={img} className="max-w-sm" />
             </div>
         </section>
     )

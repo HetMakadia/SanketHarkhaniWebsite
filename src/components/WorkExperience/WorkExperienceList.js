@@ -1,76 +1,52 @@
-import {
-    AdobeAcrobat,
-    Angular,
-    Bitbucket,
-    CSS,
-    HTML,
-    Java,
-    JavaScript,
-    JIRASoftware,
-    MongoDB,
-    MSExcel,
-    MSWord,
-    MSPowerpoint,
-    Sharepoint,
-    React,
-    Python,
-    Firebase,
-    Github,
-    DOTNET,
-    CSharp,
-    VisualStudio,
-    SQLServer,
-    Bootstrap, TypeScript
+import {Communication, Data, ERP, InvControl, Lean, ProbSol, QA, SOPImplementation, WMS
 } from "../Technologies";
 
 export const WorkExperienceList = [
     {
-        companyName: "MSI Surfaces",
-        link: "https://www.msisurfaces.com/",
-        position: "Associate Software Developer",
-        startDate: "October, 2023",
+        companyName: "Daniels Health",
+        link: "https://www.danielshealth.com/",
+        position: "Plant Supervisor",
+        startDate: "Aug, 2025",
         endDate: "Current",
-        responsibilities: "Developing and maintaining 8+ internal enterprise applications using .NET Framework, C#, JavaScript, SQLServer, Bootstrap, and REST APIs—modernizing UI/UX and backend workflows. " +
-            "Built and deployed a Cycle Count Dashboard that replaced manual Excel tracking, improving real-time visibility and cutting process time by 30%." +
-            "Supporting NetSuite ERP migration by updating stored procedures, modifying schemas, and adapting backend logic" +
-            "Using JIRA to manage tasks, track bugs, and communicate updates with team leads for better sprint planning and delivery",
+        responsibilities: "Leading a team of 20+ associates. Responsible for managing inventory, writing SOP's, creating plant metrices on weekly basis and defining goal for the month. Carrying out safety audits, compilance reports and engaging with stakeholders to discuss potential improvements. Collaborating with Customer service, Transportation and maintenance department to make sure we hit the plant KPI's.",
 
-        skillsUsed: [DOTNET, Bootstrap, JavaScript, CSharp, SQLServer, VisualStudio, JIRASoftware],
+        skillsUsed: [],
     },
     {
-        companyName: "EMPLOYERS Insurance Group, Inc.",
-        link: "https://www.employers.com/",
-        position: "Application Development Intern",
-        startDate: "June, 2022",
-        endDate: "May, 2023",
-        responsibilities: "Converted an Excel-based “Access Report” into a web app using Angular v16, TypeScript, and Java backend, implementing RxJS observables, Angular forms, and component-based architecture for maintainability." +
-            "Integrated MongoDB for persistent storage, applied lazy loading and route guards in Angular Router." +
-            "Operated in a fast-paced Agile environment, managing stories and timelines in JIRA, delivering the project 1month ahead of deadline.",
-        skillsUsed: [Angular, Java, HTML, CSS, MongoDB, TypeScript, Bitbucket,JIRASoftware],
+        companyName: "Smith Induspac",
+        link: "https://www.induspac.ca/en/",
+        position: "Production Supervisor",
+        startDate: "Mar, 2024",
+        endDate: "Aug, 2025",
+        responsibilities: "Lead a team of operators and associates on corrugated and packaging lines, driving daily output and maintaining workflow efficiency. Reduce downtime by 15% through proactive planning and maintenance coordination. Apply Lean principles to minimize waste and improve resource utilization. Monitor KPIs, enforce safety and quality standards, and implement a QR-based Visual SOP system to reduce errors and improve cross-shift consistency.",
+        skillsUsed: [],
     },
     {
-        companyName: "Academic Technology Services, CSULB",
-        link: "https://www.csulb.edu/academic-technology-services",
-        position: "Accessible Content Developer",
-        startDate: "Aug, 2021",
-        endDate: "May, 2022",
-        responsibilities: "Ensured accessibility of various document formats (PDF, Word, PowerPoint, Excel, etc.) upon request. \n" +
-            "Utilized Adobe and Microsoft Apps, employing OCR scanning and Accessibility Checker functions to make documents accessible for all users.\n" +
-            "Co-ordinated closely with Instructional Designers and Subject Matter Experts to develop accessible course materials for online and hybrid courses.\n"
+        companyName: "Amazon",
+        link: "https://www.aboutamazon.com/about-us",
+        position: "Distribution Center Team Lead",
+        startDate: "Nov, 2022",
+        endDate: "Jan, 2024",
+        responsibilities: "Managed 15-20 associates in a high-volume delivery station, ensuring smooth inbound and outbound operations. Boosted process efficiency by 10% through Lean initiatives and improved labor allocation. Maintained inventory accuracy, streamlined returns handling, and supported data-driven decision-making. Upheld safety protocols and ISO compliance across all workflows. •EMPLOYEE OF THE MONTH 3 times in year 2023 and listed among TOP 1% WORKING AMAZONIANS."
             ,
-        skillsUsed: [AdobeAcrobat, MSWord, MSExcel, MSPowerpoint, Sharepoint],
+        skillsUsed: [],
     },
-    // ,
-    // {
-    //     companyName: "Technozions",
-    //     link: "https://technozions.com",
-    //     position: "Full-Stack Developer",
-    //     startDate: "Aug, 2020",
-    //     endDate: "July, 2021",
-    //     responsibilities: "Migrated and enhanced project front-end from class based React.js to React hooks, reducing load times by 20% and boosting user engagement.\n" +
-    //         "Implemented an agile development approach for restaurant's project using AngularJS and Python, resulting in a 15% increase in project delivery speed.\n" +
-    //         "Innovated by integrating Tailwind and Bootstrap CSS in both projects, reducing CSS codebase by 25% and improving responsiveness across devices.\n" +
-    //         "Integrated Firebase for real-time data synchronization, leading to decrease in query execution time and improved collaboration among team members.",
-    //     skillsUsed: [React, Angular, Python, Java, Github, MongoDB, Firebase, JIRASoftware],
-    // }
+    {
+        companyName: "DNA Angels",
+        link: "https://angelinvestorsdurham.ca/",
+        position: "Operations Specialist Co-Op",
+        startDate: "Sep, 2023",
+        endDate: "Dec, 2023",
+        responsibilities: "Drove process optimization initiatives that improved operational efficiency by 15% through streamlined workflows and reduced bottlenecks. Coordinated resources to enable effective collaboration between entrepreneurs and investors, maximizing the value of capital, expertise, and mentorship. Leveraged data analysis and reporting to track performance, support informed investment decisions, and drive continuous improvement. Proactively identified risks and implemented mitigation strategies to strengthen process efficiency and long-term operational sustainability.",
+        skillsUsed: [],
+    },
+    {
+        companyName: "Superior Ferrocast",
+        link: "https://www.superiorferrocast.com/",
+        position: "Production Team Lead",
+        startDate: "Jan, 2021",
+        endDate: "Feb, 2022",
+        responsibilities: "Supported daily floor operations and assisted in coordinating shift activities. Helped track inventory, follow up on raw material supply, and improve material flow. Gained hands-on experience in team communication, supply chain coordination, and production best practices under senior guidance.",
+        skillsUsed: [],
+    }
 ]

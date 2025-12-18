@@ -50,15 +50,15 @@ function WorkExperience() {
                                         {experience.responsibilities}
                                     </p>
 
-                                    <div className="col-span-12 col-start-1">
-                                        {experience.skillsUsed.map((skill) =>
-                                            <span
-                                                className="m-2 inline-flex border border-black items-center justify-center rounded-full bg-accent px-2.5 py-0.5 text-info hover:border-white">
-                                                    <img className="m-1 h-4" src={skill.iconLink}/>
-                                                    <p className="whitespace-nowrap text-base">{skill.name}</p>
-                                                </span>
-                                        )}
-                                    </div>
+                                    {/*<div className="col-span-12 col-start-1">*/}
+                                    {/*    {experience.skillsUsed.map((skill) =>*/}
+                                    {/*        <span*/}
+                                    {/*            className="m-2 inline-flex border border-black items-center justify-center rounded-full bg-accent px-2.5 py-0.5 text-info hover:border-white">*/}
+                                    {/*                <img className="m-1 h-4" src={skill.iconLink}/>*/}
+                                    {/*                <p className="whitespace-nowrap text-base">{skill.name}</p>*/}
+                                    {/*            </span>*/}
+                                    {/*    )}*/}
+                                    {/*</div>*/}
                                     <div className="col-span-12">
                                         <br/>
                                     </div>

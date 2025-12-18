@@ -15,9 +15,10 @@ function Navbar() {
                         <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></a></li>
                         <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="education" spy={true} smooth={true} offset={-70} duration={500}>Education</Link></a></li>
                         <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="skills" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link></a></li>
+                        {/*<li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="certificates" spy={true} smooth={true} offset={-70} duration={500}>Certificates</Link></a></li>*/}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-2xl font-bold"><Link activeClass="text-white" to="main" spy={true} smooth={true} offset={-70} duration={500}>Het Makadia</Link></a>
+                <a className="btn btn-ghost normal-case text-2xl font-bold"><Link activeClass="text-white" to="main" spy={true} smooth={true} offset={-70} duration={500}>Sanket Harkhani</Link></a>
 
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -26,6 +27,7 @@ function Navbar() {
                     <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></a></li>
                     <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="education" spy={true} smooth={true} offset={-70} duration={500}>Education</Link></a></li>
                     <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="skills" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link></a></li>
+                    {/*<li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="certificates" spy={true} smooth={true} offset={-70} duration={500}>Certificates</Link></a></li>*/}
                 </ul>
             </div>
 

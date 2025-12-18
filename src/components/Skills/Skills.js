@@ -1,31 +1,10 @@
 import {
-    Angular,
-    CSS, Firebase,
-    Github,
-    HTML,
-    Java,
-    JavaScript,
-    JIRASoftware,
-    MongoDB,
-    Python,
-    React,
-    NodeJS,
-    PostgreSQL,
-    TailwindCSS,
-    Bootstrap,
-    Bitbucket,
-    JSON,
-    AWSLambda,
-    CSharp,
-    DOTNET,
-    VisualStudio,
-    SQLServer,
-    TypeScript,
-    AzureDevOpsServer
+    Communication, Data, ERP, InvControl, Lean, ProbSol, QA, SOPImplementation, WMS
+
 } from "../Technologies";
 
 function Skills() {
-    const skillSet = [React, Angular, JavaScript, TypeScript, Java, Python, CSharp, DOTNET, Firebase, MongoDB, SQLServer, JSON, HTML, CSS, VisualStudio, TailwindCSS, Bootstrap, Github, Bitbucket, AzureDevOpsServer, JIRASoftware]
+    const skillSet = [Communication, Data, ERP, InvControl, Lean, ProbSol, QA, SOPImplementation, WMS]
     return (
         <section id="skills" className="text-white bg-base-100 select-none">
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
@@ -37,9 +16,9 @@ function Skills() {
                     {skillSet.map((skill) =>
                         <div className="block rounded-xl border border-gray-800 p-4 lg:p-8 shadow-xl text-gray-500 transition bg-neutral hover:text-white hover:border-white hover:shadow-gray-100/10">
                             <ol className=" relative border-gray-200 dark:border-gray-700 grid grid-cols-2">
-                                <div className="col-span-2 justify-self-center ">
-                                    <img className="h-6 lg:h-14" src={skill.iconLink}/>
-                                </div>
+                                {/*<div className="col-span-2 justify-self-center ">*/}
+                                {/*    <img className="h-6 lg:h-14" src={skill.iconLink}/>*/}
+                                {/*</div>*/}
                                 <div className="col-span-2 justify-self-center">
                                     <br/>
                                     <p className="text-sm lg:text-lg">{skill.name}</p>
