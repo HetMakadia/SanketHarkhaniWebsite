@@ -39,9 +39,9 @@ function Contact() {
                 <div className="mx-auto max-w-lg text-center">
                     <h2 className="text-3xl font-bold lg:text-5xl">..</h2>
                 </div>
-                <div className="mt-8 grid grid-cols-12 gap-8">
+                <div className="grid grid-cols-12 gap-8 mt-8  ">
 
-                    <div className="lg:col-span-12  justify-self-center">
+                    <div className="content-center col-span-12 items-center justify-self-center text-info">
 
 
                         <p className="max-w-xl text-lg text-justify">
@@ -73,52 +73,13 @@ function Contact() {
                             </div>
                         </div>
 
-                        <br/>
-
-
-
-
                     </div>
-                    {/*<div className="rounded-lg bg-neutral p-8 shadow-lg lg:col-span-2 ">*/}
-
-                    {/*    /!*<form action="" className="space-y-4" onSubmit={handleSubmit}>*!/*/}
-                    {/*    /!*    <div>*!/*/}
-                    {/*    /!*        <label className="sr-only" htmlFor="name">Name</label>*!/*/}
-                    {/*    /!*        <input className="w-full rounded-lg bg-base-100 border-gray-800 hover:bg-black hover:border-white p-3 text-sm" placeholder="Name" type="text" value={name} onChange={e => setName(e.target.value)} disabled={isDisabled}/>*!/*/}
-                    {/*    /!*    </div>*!/*/}
-
-                    {/*    /!*    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">*!/*/}
-                    {/*    /!*        <div>*!/*/}
-                    {/*    /!*            <label className="sr-only" htmlFor="email">Email</label>*!/*/}
-                    {/*    /!*            <input className="w-full bg-base-100 rounded-lg border-gray-800 hover:bg-black hover:border-white p-3 text-sm" placeholder="Email address" type="email" value={email} onChange={e => setEmail(e.target.value)} disabled={isDisabled}/>*!/*/}
-                    {/*    /!*        </div>*!/*/}
-                    {/*    /!*        <div>*!/*/}
-                    {/*    /!*            <label className="sr-only" htmlFor="phone">Phone</label>*!/*/}
-                    {/*    /!*            <input className="w-full bg-base-100 rounded-lg border-gray-800 hover:bg-black hover:border-white p-3 text-sm" placeholder="Phone Number" type="tel" value={phone} onChange={e => setPhone(e.target.value)} disabled={isDisabled}/>*!/*/}
-                    {/*    /!*        </div>*!/*/}
-                    {/*    /!*    </div>*!/*/}
-                    {/*    /!*    <div>*!/*/}
-                    {/*    /!*        <label className="sr-only" htmlFor="message">Message</label>*!/*/}
-
-                    {/*    /!*        {isDisabled?<textarea disabled className="w-full bg-base-100 rounded-lg border-gray-800 hover:bg-black hover:border-white p-3 text-sm" placeholder="Message" rows="8" value={message} onChange={e => setMessage(e.target.value)} ></textarea> : <textarea  className="w-full bg-base-100 rounded-lg border-gray-800 hover:bg-black hover:border-white p-3 text-sm" placeholder="Message" rows="8" value={message} onChange={e => setMessage(e.target.value)} ></textarea> }*!/*/}
 
 
-                    {/*    /!*    </div>*!/*/}
-                    {/*    /!*    {isDisabled ?*!/*/}
-                    {/*    /!*        <div className="text-success">Thanks for reaching out to me.</div>*!/*/}
-                    {/*    /!*    :*!/*/}
-                    {/*    /!*    null*!/*/}
-                    {/*    /!*    }*!/*/}
-                    {/*    /!*    <div className="mt-4">*!/*/}
-                    {/*    /!*        <button disabled={isDisabled} type="submit" className="inline-block border border-gray-800 w-full bg-base-100 rounded-lg hover:bg-black hover:border-white px-5 py-3 font-medium text-white sm:w-auto">*!/*/}
-                    {/*    /!*            Send Message*!/*/}
-                    {/*    /!*        </button>*!/*/}
-                    {/*    /!*    </div>*!/*/}
-                    {/*    /!*</form>*!/*/}
-                    {/*</div>*/}
-                    {/*<div className=" grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">*/}
-                    {/*    */}
-                    {/*</div>*/}
+
+
+
+
                 </div>
             </div>
         </section>
