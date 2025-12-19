@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.3fa1591c.css",
-    "main.js": "/static/js/main.df8ec223.js",
+    "main.css": "/static/css/main.09716f25.css",
+    "main.js": "/static/js/main.31f51cc6.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
-    "static/media/supremecarbon.png": "/static/media/supremecarbon.f29c3576f71b60809e8e.png",
     "static/media/hero_main.PNG": "/static/media/hero_main.71d13c93ec3274294221.PNG",
     "static/media/education.jpg": "/static/media/education.ab203f272720f8097033.jpg",
     "static/media/Resume.pdf": "/static/media/Resume.9af7d14b8e1f02c6928d.pdf",
-    "static/media/rooster.png": "/static/media/rooster.d5b58f7665258e0bb126.png",
-    "static/media/stuxpert.png": "/static/media/stuxpert.83b490f64c9b414a7604.png",
-    "static/media/web.jpeg": "/static/media/web.320d8aa5900ba49be4f1.jpeg",
+    "static/media/scanningOptimization.jpg": "/static/media/scanningOptimization.19420e7e50d1b528e8e0.jpg",
+    "static/media/SOP.jpg": "/static/media/SOP.cde402db8f3c6dc9979e.jpg",
+    "static/media/Workflow.jpg": "/static/media/Workflow.28490005732223fc734b.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.3fa1591c.css.map": "/static/css/main.3fa1591c.css.map",
-    "main.df8ec223.js.map": "/static/js/main.df8ec223.js.map",
+    "main.09716f25.css.map": "/static/css/main.09716f25.css.map",
+    "main.31f51cc6.js.map": "/static/js/main.31f51cc6.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fa1591c.css",
-    "static/js/main.df8ec223.js"
+    "static/css/main.09716f25.css",
+    "static/js/main.31f51cc6.js"
   ]
 }
