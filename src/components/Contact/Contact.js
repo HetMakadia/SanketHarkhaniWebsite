@@ -32,28 +32,30 @@ function Contact() {
     };
 
     return (
-        <section id="contact" className="text-white bg-base-100 select-none">
+        <section id="contact" className="justify-self-center text-white bg-base-100 select-none">
+
+
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                 <div className="mx-auto max-w-lg text-center">
-                    <h2 className="text-3xl font-bold lg:text-5xl">Contact Me.</h2>
+                    <h2 className="text-3xl font-bold lg:text-5xl">..</h2>
                 </div>
                 <div className="mt-8 grid grid-cols-12 gap-8">
 
-                    <div className="lg:col-span-12 lg:py-12 justify-self-center">
+                    <div className="lg:col-span-12  justify-self-center">
+
+
                         <p className="max-w-xl text-lg text-justify">
                             Thank you for visiting my portfolio. Your interest in my work means a lot to me, and I hope you found it informative and engaging. If you have any inquiries or job opportunities, please feel free to contact me. I'm always eager to connect with people who share my passion.
                         </p>
+
                         <br/>
 
                         <div className="text-center">
-                            <a href="" className="text-4xl font-bold text-gray-600">
-                                Sanket Harkhani
-                            </a>
-                            <br/>
-
-                            {/*<a href="tel:+16572959821" className=" mt-2 text-lg font-bold text-gray-400">*/}
-                            {/*    (657) 295-9821*/}
+                            {/*<a href="" className="text-4xl font-bold text-gray-600">*/}
+                            {/*    Sanket Harkhani*/}
                             {/*</a>*/}
+                            {/*<br/>*/}
+
                             <br/>
                             <a href="mailto: sanketharkhani53@gmail.com" className="mt-2 text-lg font-bold text-gray-400">
                                 sanketharkhani53@gmail.com
@@ -70,6 +72,10 @@ function Contact() {
                                 </a>
                             </div>
                         </div>
+
+                        <br/>
+
+
 
 
                     </div>

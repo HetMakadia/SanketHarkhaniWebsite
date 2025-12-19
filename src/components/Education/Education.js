@@ -22,7 +22,7 @@ function Education() {
                                 <div className="card-body self-center  col-span-12 p-4 lg:p-0 lg:col-span-8 ml-8 ">
                                     <br/>
                                     <h2 className="card-title text-xl lg:text-3xl font-bold leading-normal">Master of Management</h2>
-                                    <h2 className="card-title text-xl lg:text-xl font-bold leading-normal">Trent University</h2>
+                                    <h2 className="card-title text-xl lg:text-xl font-bold leading-normal">Trent University, Canada</h2>
                                     <div className=" text-info edu-text">
                                         <p className="leading-normal"><span className="font-extrabold">• Specialized/Focused area: </span> <span className="italic text-gray-400">Supply Chain Management</span></p>
                                     </div>
@@ -33,7 +33,7 @@ function Education() {
                                     </div>
 
                                     <h2 className="card-title text-xl lg:text-3xl font-bold leading-normal">Bachelor of Technology</h2>
-                                    <h2 className="card-title text-xl lg:text-xl font-bold leading-normal">Charusat University</h2>
+                                    <h2 className="card-title text-xl lg:text-xl font-bold leading-normal">Charusat University, India</h2>
                                     <div className=" text-info edu-text">
                                         <p className="leading-normal"><span className="font-extrabold">• Specialized/Focused area: </span> <span className="italic text-gray-400">Electronics & Communication</span></p>
                                     </div>
