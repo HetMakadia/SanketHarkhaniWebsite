@@ -1,6 +1,6 @@
 import {WorkExperienceList} from "./WorkExperienceList"
 import {projects} from "../Projects/ProjectList";
-import {React} from "../Technologies";
+
 
 function WorkExperience() {
     return (

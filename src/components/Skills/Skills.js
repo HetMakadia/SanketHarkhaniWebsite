@@ -1,7 +1,7 @@
 import {
     Communication, Data, ERP, InvControl, Lean, ProbSol, QA, SOPImplementation, WMS
 
-} from "../Technologies";
+} from "./Skillset";
 
 function Skills() {
     const skillSet = [Communication, Data, ERP, InvControl, Lean, ProbSol, QA, SOPImplementation, WMS]

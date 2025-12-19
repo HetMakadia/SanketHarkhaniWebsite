@@ -1,5 +1,4 @@
 import {projects} from "./ProjectList";
-import {React} from "../Technologies";
 
 function Projects() {
     return (
@@ -11,7 +10,7 @@ function Projects() {
                 <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {projects.map((project) =>
                         <a className="block grid grid-cols-12 rounded-xl border border-gray-800 p-8 shadow-xl transition bg-neutral hover:border-white hover:shadow-gray-500/10">
-                            {/*<img className="col-span-12 h-12" src={project.logo}/>*/}
+                            <img className="col-span-12 h-16" src={project.logo} />
                             <h2 className="col-span-12 mt-4 text-2xl font-bold text-white">{project.name}</h2>
                             <p className="col-span-12 mt-1 text-justify text-base text-gray-300">
                                 {project.description}

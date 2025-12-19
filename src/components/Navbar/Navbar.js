@@ -15,7 +15,7 @@ function Navbar() {
                         <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></a></li>
                         <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="education" spy={true} smooth={true} offset={-70} duration={500}>Education</Link></a></li>
                         <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="skills" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link></a></li>
-                        {/*<li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="certificates" spy={true} smooth={true} offset={-70} duration={500}>Certificates</Link></a></li>*/}
+                        <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="certificates" spy={true} smooth={true} offset={-70} duration={500}>Certificates</Link></a></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-2xl font-bold"><Link activeClass="text-white" to="main" spy={true} smooth={true} offset={-70} duration={500}>Sanket Harkhani</Link></a>
@@ -27,21 +27,21 @@ function Navbar() {
                     <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></a></li>
                     <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="education" spy={true} smooth={true} offset={-70} duration={500}>Education</Link></a></li>
                     <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="skills" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link></a></li>
-                    {/*<li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="certificates" spy={true} smooth={true} offset={-70} duration={500}>Certificates</Link></a></li>*/}
+                    <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="certificates" spy={true} smooth={true} offset={-70} duration={500}>Certificates</Link></a></li>
                 </ul>
             </div>
 
             <div className="navbar-end">
-                <a className="group relative inline-flex items-center overflow-hidden rounded border border-current px-6 py-3 mr-3 text-gray-600 hover:text-white focus:outline-none focus:ring active:text-indigo-500" href={resume} target="_blank">
-                    <span className="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">
-                        <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                        </svg>
-                    </span>
-                    <span className="text-sm text-white font-medium transition-all group-hover:mr-4">
-                        Resume
-                    </span>
-                </a>
+                {/*<a className="group relative inline-flex items-center overflow-hidden rounded border border-current px-6 py-3 mr-3 text-gray-600 hover:text-white focus:outline-none focus:ring active:text-indigo-500" href={resume} target="_blank">*/}
+                {/*    <span className="absolute right-0 translate-x-full transition-transform group-hover:-translate-x-4">*/}
+                {/*        <svg className="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">*/}
+                {/*          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>*/}
+                {/*        </svg>*/}
+                {/*    </span>*/}
+                {/*    <span className="text-sm text-white font-medium transition-all group-hover:mr-4">*/}
+                {/*        Resume*/}
+                {/*    </span>*/}
+                {/*</a>*/}
             </div>
         </nav>
     )
