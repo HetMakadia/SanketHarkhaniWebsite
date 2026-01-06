@@ -2,11 +2,24 @@
 
 export const WorkExperienceList = [
     {
+        companyName: "Supreme Carbon",
+        link: "https://supremecarbon.in/",
+        position: "Enterprise Resources Planning Implementation Consultant",
+        startDate: "Feb, 2023",
+        endDate: "Current",
+        responsibilities: "Partnered with business and operations teams to implement and optimize ERP solutions across manufacturing, inventory, and supply \n" +
+            "chain functions. Acted as a trusted advisor by analyzing system and process issues, driving root-cause resolution, and ensuring ERP \n" +
+            "performance aligned with agreed service levels. Enabled operational efficiency through cross-functional collaboration, system governance, \n" +
+            "and continuous improvement initiatives.",
+
+        skillsUsed: [],
+    },
+    {
         companyName: "Daniels Health",
         link: "https://www.danielshealth.com/",
         position: "Plant Supervisor",
         startDate: "Aug, 2025",
-        endDate: "Current",
+        endDate: "Dec, 2025",
         responsibilities: "Leading a team of 20+ associates. Responsible for managing inventory, writing SOP's, creating plant metrices on weekly basis and defining goal for the month. Carrying out safety audits, compilance reports and engaging with stakeholders to discuss potential improvements. Collaborating with Customer service, Transportation and maintenance department to make sure we hit the plant KPI's.",
 
         skillsUsed: [],

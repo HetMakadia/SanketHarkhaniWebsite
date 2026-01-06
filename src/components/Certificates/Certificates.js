@@ -22,6 +22,9 @@ function Certificates() {
                             <span>Completed</span>
                         </li>
                         <li><a>‣ SAP S4/HANA essential Training</a></li>
+                        <li><a>‣ SAP Material Management</a></li>
+                        <li><a>‣ SAP Sales & Distribution</a></li>
+                        <li><a>‣ SAP Production Planning</a></li>
                         <li><a>‣ Advance MS Excel</a></li>
                         <li><a>‣ Atlassian Project Management Certificate</a></li>
                         <li><a>‣ Analyzing and Visualizing Data with Microsoft Power BI</a></li>

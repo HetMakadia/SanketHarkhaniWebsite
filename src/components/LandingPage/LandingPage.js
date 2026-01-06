@@ -7,7 +7,7 @@ function LandingPage() {
         <section id="main" className=" items-center bg-base-100 content-center grid grid-cols-2 select-none">
             <div className="col-span-2 lg:col-span-1 justify-self-center text-info p-14 lg:p-24">
                 <h1 className="main-heading">
-                    Bonjour 👋, <br/>   I'm <span className="font-bold text-gray-400">Sanket Harkhani</span>, <br/> <span className="font-bold text-gray-400">Supply Chain</span> Professional
+                    Bonjour 👋, <br/>   I'm <span className="font-bold text-gray-400">Sanket Harkhani</span>, <br/> <span className="font-bold text-gray-400"></span>Your Next Consultant
                 </h1>
                 <br/>
                 <p className="main-text">

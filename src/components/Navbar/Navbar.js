@@ -12,8 +12,9 @@ function Navbar() {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-bold">
                         <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="workexperience" spy={true} smooth={true} offset={-70} duration={500}>Work Experience</Link></a></li>
-                        <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></a></li>
                         <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="education" spy={true} smooth={true} offset={-70} duration={500}>Education</Link></a></li>
+                        <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></a></li>
+                        <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="sapprojects" spy={true} smooth={true} offset={-70} duration={500}>SAP Projects</Link></a></li>
                         <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="skills" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link></a></li>
                         <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="certificates" spy={true} smooth={true} offset={-70} duration={500}>Certificates</Link></a></li>
                     </ul>
@@ -24,8 +25,9 @@ function Navbar() {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-bold">
                     <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="workexperience" spy={true} smooth={true} offset={-70} duration={500}>Work Experience</Link></a></li>
-                    <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></a></li>
                     <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="education" spy={true} smooth={true} offset={-70} duration={500}>Education</Link></a></li>
+                    <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link></a></li>
+                    <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="sapprojects" spy={true} smooth={true} offset={-70} duration={500}>SAP Projects</Link></a></li>
                     <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="skills" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link></a></li>
                     <li><a className="text-gray-400 hover:text-white"><Link activeClass="text-white" to="certificates" spy={true} smooth={true} offset={-70} duration={500}>Certificates</Link></a></li>
                 </ul>

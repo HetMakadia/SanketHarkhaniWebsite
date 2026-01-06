@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import LandingPage from "./components/LandingPage/LandingPage";
 import Education from "./components/Education/Education";
 import Projects from "./components/Projects/Projects";
+import SAPProjects from "./components/SAPProjects/SAPProjects";
 import WorkExperience from "./components/WorkExperience/WorkExperience";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
@@ -20,6 +21,7 @@ function App() {
               <LandingPage/>
               <WorkExperience/>
               <Projects/>
+              <SAPProjects/>
               <Education/>
               <Skills/>
               <Certificates/>
