@@ -23,7 +23,7 @@ function SAPProjects() {
                         //
                         // </div>
 
-                            <div className="indicator col-span-6 w-fit">
+                            <div className="indicator col-span-12 lg:col-span-6 md:col-span-6 w-fit">
                                 <span className="indicator-item indicator-top indicator-center badge text-black bg-white">{project.name}</span>
                                 <div className="col-span-12 border p-4 text-center border-gray-800 rounded-xl place-items-center shadow-xl text-gray-500 transition bg-neutral hover:text-white hover:border-white hover:shadow-gray-100/10">
                                     <br/> {project.description}</div>
